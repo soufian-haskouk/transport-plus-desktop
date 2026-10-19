@@ -1,6 +1,9 @@
+
 \# Transport+ 🚍
 
-
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
+![MySQL](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)
 
 **Transport+** est une application de bureau développée en **Java** (Swing / JDBC) et connectée à une base de données **MySQL**. Elle permet de gérer de manière complète les activités d'une société de transport de voyageurs.
 
