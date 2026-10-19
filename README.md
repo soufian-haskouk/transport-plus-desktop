@@ -38,3 +38,10 @@ Application de bureau développée en \*\*Java\*\* (Swing, JDBC, MySQL) pour la 
 
 &#x20;  git clone \[https://github.com/soufian-haskouk/transport-plus-desktop.git](https://github.com/soufian-haskouk/transport-plus-desktop.git)
 
+## 🗄️ Base de Données & Configuration MySQL
+
+L'application communique avec une base de données MySQL via le **JDBC Connector**.
+
+1. Créez une base de données nommée `transport_plus` :
+   ```sql
+   CREATE DATABASE transport_plus;
