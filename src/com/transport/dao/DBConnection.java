@@ -3,7 +3,7 @@ package com.transport.dao;
 import java.sql.*;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/transport_db";
+    private static final String URL = "jdbc:mysql://localhost:3306/transport_plus";
     private static final String USER = "root";
     private static final String PASSWORD = "";
     
