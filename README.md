@@ -1,59 +1,54 @@
+# 🚍 Transport+
 
-\# Transport+ 🚍
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Version](https://img.shields.io/badge/Release-v1.0.0-blue)
+![Java](https://img.shields.io/badge/Java-Swing-orange?logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
+![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)
 
-![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
-![MySQL](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
-![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)
+> **Application de bureau robuste développée en Java et connectée à MySQL pour la gestion complète d'une société de transport de voyageurs.**
 
-**Transport+** est une application de bureau développée en **Java** (Swing / JDBC) et connectée à une base de données **MySQL**. Elle permet de gérer de manière complète les activités d'une société de transport de voyageurs.
+---
 
+## 📌 Présentation du Projet
+**Transport+** est une solution logicielle bureautique conçue pour optimiser et automatiser les processus opérationnels d'une agence de transport. Elle offre des interfaces graphiques intuitives adaptées aux différents utilisateurs (clients et administrateurs) en s'appuyant sur l'architecture JDBC.
 
+---
 
 ## 🚀 Fonctionnalités Principales
-- **Authentification & Gestion des Rôles :** Espaces dédiés pour les **Clients** et les **Administrateurs**.
-- **Gestion des Voyages :** Planification, recherche et suivi des trajets (villes de départ/arrivée, horaires, prix et places disponibles).
-- **Réservations de Billets :** Processus complet de réservation avec gestion des sièges et des statuts[cite: 3].
-- **Offres Spéciales & Promotions :** Gestion des codes promo et des réductions (pourcentages ou montants fixes)[cite: 3].
-- **Gestion de la Flotte & Paiements :** Suivi des véhicules, des états de maintenance et des paiements[cite: 3].
 
-\## 🛠️ Technologies Utilisées
+* **🔐 Authentification & Gestion des Rôles :** Espaces sécurisés et dédiés pour les **Clients** et les **Administrateurs**.
+* **🗺️ Gestion des Voyages :** Planification, recherche et suivi en temps réel des trajets (villes de départ/arrivée, horaires, prix et places disponibles).
+* **🎟️ Réservations de Billets :** Processus complet de réservation avec gestion interactive des sièges et des statuts.
+* **🏷️ Offres Spéciales & Promotions :** Gestion dynamique des codes promo et des réductions (pourcentages ou montants fixes).
+* **🚌 Gestion de la Flotte & Paiements :** Suivi des véhicules, des états de maintenance et centralisation des paiements.
 
-\- \*\*Langage :\*\* Java
+---
 
-\- \*\*Interface :\*\* Java Swing / AWT
+## 🛠️ Stack Technologique & Architecture
 
-\- \*\*Base de données :\*\* MySQL (JDBC)
+| Composant | Technologie Utilisée |
+| :--- | :--- |
+| **Langage Principal** | Java |
+| **Interface Graphique (UI)** | Java Swing / AWT |
+| **Base de Données** | MySQL (Connexion via JDBC) |
+| **Environnement de Développement** | Eclipse IDE |
 
-\- \*\*Outil de build :\*\* Eclipse IDE
+---
 
 ## 📂 Structure du Projet
-- `src/com/transport/config/` : Configuration de l'application et des thèmes[cite: 3].
-- `src/com/transport/dao/` : Classes d'accès aux données (<bdi>Data Access Objects</bdi>)[cite: 3].
-- `src/com/transport/models/` : Modèles de données (Entités)[cite: 3].
-- `src/com/transport/services/` : Logique métier[cite: 3].
-- `src/com/transport/ui/` : Fenêtres (<bdi>Frames</bdi>), panneaux (<bdi>Panels</bdi>) et composants graphiques[cite: 3].
-- `database/` : Script SQL complet de la base de données (`transport_db.sql`)[cite: 3].
 
-\## ⚙️ Installation et Exécution
+* `src/com/transport/config/` : Configuration globale de l'application et des thèmes graphiques.
+* `src/com/transport/dao/` : Classes d'accès aux données (*Data Access Objects*).
+* `src/com/transport/models/` : Modèles de données et entités métiers.
+* `src/com/transport/services/` : Implémentation de la logique métier.
+* `src/com/transport/ui/` : Fenêtres (*Frames*), panneaux (*Panels*) et composants graphiques.
+* `database/` : Script SQL complet de la base de données (`transport_db.sql`).
 
-1\. Clonez le dépôt :
+---
 
-&#x20;  ```bash
+## ⚙️ Installation et Exécution
 
-&#x20;  git clone \[https://github.com/soufian-haskouk/transport-plus-desktop.git](https://github.com/soufian-haskouk/transport-plus-desktop.git)
-
-## 🗄️ Base de Données & Configuration MySQL
-
-L'application communique avec une base de données MySQL via le **JDBC Connector**.
-  1. Créez une base de données nommée `transport_plus` :
-   ```sql
-   CREATE DATABASE transport_plus;
-Importez le projet dans Eclipse IDE en tant que projet Java existant
-
-Importez le fichier SQL situé dans le dossier database/transport_db.sql dans votre serveur MySQL local (via phpMyAdmin)[cite: 3].
-
-Configurez vos accès à la base de données dans la classe de connexion (DBConnection.java).
-
-Exécutez la classe principale pour lancer l'application
-
-
+### 1. Cloner le dépôt
+```bash
+git clone [https://github.com/soufian-haskouk/transport-plus-desktop.git](https://github.com/soufian-haskouk/transport-plus-desktop.git)
