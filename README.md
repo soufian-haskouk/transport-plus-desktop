@@ -2,6 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Version](https://img.shields.io/badge/Release-v1.0.0-blue)
+![Author](https://img.shields.io/badge/Author-Soufian%20Haskouk-purple?style=for-the-badge&logo=github)
 ![Java](https://img.shields.io/badge/Java-Swing-orange?logo=openjdk&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)
